@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    background-color: rgb(46, 46, 46);
+}
+img{
+    width: 200px; 
+    height: 200px;
+    margin: 50px;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home a{
+    padding: 20px;
+    background-color: rgb(123, 128, 126);
+    color:#EC145C;
+    border-radius: 20px;
+    border: 1px solid #EC145C ;
+}
+.home a:hover{
+    background-color: #EC145C ;
+    color:rgb(255, 255, 255);
+    border-radius: 20px;
+}
+a{
+    text-decoration: none;
+    font-size: 50px;
+}

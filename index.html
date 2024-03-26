@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Projeto de HTML & CSS</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap');
         .adm:hover{
             color: #0efff3;
         }
@@ -41,10 +42,20 @@
         }
         .redes:hover{
             color: #0eff97;
-            
+
         }
-
-
+        .sites-fav {
+            font-size:10 px;
+            font-family: "Truculenta";
+        }
+        .sites-fav:hover{
+            color: #ff0e7e;
+            text-shadow: 1px 1px 1 px #4b0827;
+        }
+        .top-page h2{
+            font-size:30px;
+            margin: 0;
+        }
     </style>
 
 </head>
@@ -55,6 +66,7 @@
                 <img src="img/fiap.png" alt="">
             </div>
             <div class="titulo"><h1>FIAP. O NOVO É AQUI.</h1></div>
+            <a href="site_fav/sites_fav.html" target="_blank" ><h2 class="sites-fav"  >Aqui estão meus sites favoritos</h2></a>
         </div>
     </header>
     <main>
@@ -89,11 +101,7 @@
             </div>
             
         </div>
-        
-
-        <div class="sites-fav">
-            <a href=""></a>
-        </div>
+    
     </main>
 </body>
 </html>
