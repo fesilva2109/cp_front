@@ -7,6 +7,7 @@ img{
     height: 200px;
     margin: 50px;
 }
+/*Ajuste do botão para voltar pra home*/
 .home{
     display: flex;
     justify-content: center;
@@ -24,7 +25,13 @@ img{
     color:rgb(255, 255, 255);
     border-radius: 20px;
 }
+/*tamanho da fonte e tirar underline*/
 a{
     text-decoration: none;
     font-size: 50px;
+}
+/*Título*/
+h1{
+    text-align: center;
+    color: azure;
 }
